@@ -1,0 +1,24 @@
+/*Body*/
+body{ font-family:'Sen', sans-serif; font-size:16px; ;line-height:18px; font-weight:400; color:#000; background:#fff; margin:0; padding:0; }
+ul,li,ol{ list-style:none; margin:0; padding:0; }
+a:active,a:visited,a{ text-decoration:none; }
+
+/*Container-width:*/
+@media screen and ( min-width:1366px ){
+    .container{ max-width:1170px; }
+}
+
+/*Root*/
+:root{
+    --accent-color:#1880a0;
+    --secondary-color:#ff0000;
+    --trans:all 0.5s ease-in-out;
+}
+
+/*Title*/
+.title{ margin:0; padding:0; }
+.title h2{ font-size:45px; ;line-height:47px; font-weight:700; color:#272727; text-transform:uppercase; margin:0; padding:0; }
+
+/*Btns*/
+.primary-btn{ font-size:18px; ;line-height:22px; font-weight:700; color:#fff; background:var(--accent-color); display:inline-block; text-transform:uppercase; transition:var(--trans); margin:0; padding:20px 42px; }
+.primary-btn:hover{ background:var(--secondary-color); color:#fff; }
